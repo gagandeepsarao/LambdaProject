@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods,   9 passed</span>
+                    <span class="method-stats">9 methods,  3 skipped,  6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="lambda101.LambdaTests" class="method navigator-link" hash-for-method="testScenario1">testScenario1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="lambda101.LambdaTests" class="method navigator-link" hash-for-method="testScenario2">testScenario2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="lambda101.LambdaTests" class="method navigator-link" hash-for-method="testScenario3">testScenario3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -113,27 +137,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="lambda101.LambdaTests" class="method navigator-link" hash-for-method="testScenario1">testScenario1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="lambda101.LambdaTests" class="method navigator-link" hash-for-method="testScenario2">testScenario2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="lambda101.LambdaTests" class="method navigator-link" hash-for-method="testScenario2">testScenario2</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="lambda101.LambdaTests" class="method navigator-link" hash-for-method="testScenario2">testScenario2</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="lambda101.LambdaTests" class="method navigator-link" hash-for-method="testScenario3">testScenario3</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -158,6 +167,140 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">lambda101.LambdaTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testScenario1">
+                  </a> <!-- testScenario1 -->
+                  <span class="method-name">testScenario1</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-5VJNL8D&apos;, ip: &apos;192.168.1.49&apos;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
+	at lambda101.LambdaTests.setUp(LambdaTests.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	... 24 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382)
+	... 34 more
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testScenario2">
+                  </a> <!-- testScenario2 -->
+                  <span class="method-name">testScenario2</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-5VJNL8D&apos;, ip: &apos;192.168.1.49&apos;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
+	at lambda101.LambdaTests.setUp(LambdaTests.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	... 24 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382)
+	... 34 more
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testScenario3">
+                  </a> <!-- testScenario3 -->
+                  <span class="method-name">testScenario3</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-5VJNL8D&apos;, ip: &apos;192.168.1.49&apos;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:141)
+	at lambda101.LambdaTests.setUp(LambdaTests.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399)
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	... 24 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382)
+	... 34 more
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -180,13 +323,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testScenario1">
-                  </a> <!-- testScenario1 -->
-                  <span class="method-name">testScenario1</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="testScenario2">
                   </a> <!-- testScenario2 -->
                   <span class="method-name">testScenario2</span>
@@ -197,20 +333,6 @@
                   <a name="testScenario2">
                   </a> <!-- testScenario2 -->
                   <span class="method-name">testScenario2</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testScenario2">
-                  </a> <!-- testScenario2 -->
-                  <span class="method-name">testScenario2</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testScenario3">
-                  </a> <!-- testScenario3 -->
-                  <span class="method-name">testScenario3</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -241,7 +363,7 @@
 &lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Running test on Chrome and Windows&quot;&gt;
     &lt;parameter name=&quot;browsername&quot; value=&quot;Chrome&quot;/&gt;
-    &lt;parameter name=&quot;version&quot; value=&quot;126&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;123&quot;/&gt;
     &lt;parameter name=&quot;platform&quot; value=&quot;Windows 11&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;lambda101.LambdaTests&quot;/&gt;
@@ -249,7 +371,7 @@
   &lt;/test&gt; &lt;!-- Running test on Chrome and Windows --&gt;
   &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Running test on Firefox and Windows&quot;&gt;
     &lt;parameter name=&quot;browsername&quot; value=&quot;firefox&quot;/&gt;
-    &lt;parameter name=&quot;version&quot; value=&quot;126.0&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;124&quot;/&gt;
     &lt;parameter name=&quot;platform&quot; value=&quot;Windows 11&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;lambda101.LambdaTests&quot;/&gt;
@@ -257,7 +379,7 @@
   &lt;/test&gt; &lt;!-- Running test on Firefox and Windows --&gt;
   &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Running test on Firefox and Mac&quot;&gt;
     &lt;parameter name=&quot;browsername&quot; value=&quot;firefox&quot;/&gt;
-    &lt;parameter name=&quot;version&quot; value=&quot;126.0&quot;/&gt;
+    &lt;parameter name=&quot;version&quot; value=&quot;124&quot;/&gt;
     &lt;parameter name=&quot;platform&quot; value=&quot;macOS Sonoma&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;lambda101.LambdaTests&quot;/&gt;
@@ -308,41 +430,41 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testScenario3')
+data.setCell(0, 1, 'testScenario1')
 data.setCell(0, 2, 'lambda101.LambdaTests')
-data.setCell(0, 3, 13343);
+data.setCell(0, 3, 10026);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testScenario1')
+data.setCell(1, 1, 'testScenario3')
 data.setCell(1, 2, 'lambda101.LambdaTests')
-data.setCell(1, 3, 12301);
+data.setCell(1, 3, 8568);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testScenario3')
 data.setCell(2, 2, 'lambda101.LambdaTests')
-data.setCell(2, 3, 9556);
+data.setCell(2, 3, 4838);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testScenario1')
 data.setCell(3, 2, 'lambda101.LambdaTests')
-data.setCell(3, 3, 8844);
+data.setCell(3, 3, 4272);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testScenario1')
+data.setCell(4, 1, 'testScenario2')
 data.setCell(4, 2, 'lambda101.LambdaTests')
-data.setCell(4, 3, 5369);
+data.setCell(4, 3, 3932);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'testScenario2')
 data.setCell(5, 2, 'lambda101.LambdaTests')
-data.setCell(5, 3, 5326);
+data.setCell(5, 3, 1426);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testScenario3')
+data.setCell(6, 1, 'testScenario1')
 data.setCell(6, 2, 'lambda101.LambdaTests')
-data.setCell(6, 3, 5146);
+data.setCell(6, 3, 0);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testScenario2')
+data.setCell(7, 1, 'testScenario3')
 data.setCell(7, 2, 'lambda101.LambdaTests')
-data.setCell(7, 3, 2875);
+data.setCell(7, 3, 0);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'testScenario2')
 data.setCell(8, 2, 'lambda101.LambdaTests')
-data.setCell(8, 3, 2721);
+data.setCell(8, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -375,52 +497,42 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">lambda101.LambdaTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUp(firefox, 126.0, macOS Sonoma)</span>
+                <span class="method-name">setUp(firefox, 124, Windows 11)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
-                <span class="method-name">setUp(Chrome, 126, Windows 11)</span>
-                <span class="method-start">3 ms</span>
+                <span class="method-name">setUp(firefox, 124, macOS Sonoma)</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
-                <span class="method-name">setUp(firefox, 126.0, Windows 11)</span>
-                <span class="method-start">3 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(Chrome, 123, Windows 11)</span>
+                <span class="method-start">1 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testScenario1</span>
-                <span class="method-start">9373 ms</span>
+                <span class="method-start">9488 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testScenario2</span>
+                <span class="method-start">13777 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testScenario1</span>
-                <span class="method-start">13754 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testScenario2</span>
-                <span class="method-start">14838 ms</span>
+                <span class="method-start">14301 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testScenario3</span>
-                <span class="method-start">17565 ms</span>
+                <span class="method-start">15210 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testScenario2</span>
-                <span class="method-start">26060 ms</span>
+                <span class="method-start">24333 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testScenario3</span>
-                <span class="method-start">31392 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testScenario1</span>
-                <span class="method-start">170760 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testScenario2</span>
-                <span class="method-start">179607 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testScenario3</span>
-                <span class="method-start">182488 ms</span>
+                <span class="method-start">28273 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

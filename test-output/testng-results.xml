@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="6" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-10T19:31:59 EDT" name="Suite" finished-at="2024-07-10T19:35:15 EDT" duration-ms="195880">
+  <suite started-at="2024-07-10T22:55:47 EDT" name="Suite" finished-at="2024-07-10T22:58:48 EDT" duration-ms="180945">
     <groups>
     </groups>
-    <test started-at="2024-07-10T19:31:59 EDT" name="Running test on Firefox and Mac" finished-at="2024-07-10T19:32:22 EDT" duration-ms="22767">
+    <test started-at="2024-07-10T22:55:47 EDT" name="Running test on Firefox and Mac" finished-at="2024-07-10T22:56:07 EDT" duration-ms="20100">
       <class name="lambda101.LambdaTests">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lambda101.LambdaTests@35f26e72]" started-at="2024-07-10T19:31:59 EDT" name="setUp" finished-at="2024-07-10T19:32:09 EDT" duration-ms="9364" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lambda101.LambdaTests@1040be71]" started-at="2024-07-10T22:55:47 EDT" name="setUp" finished-at="2024-07-10T22:55:57 EDT" duration-ms="9479" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -16,7 +16,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[126.0]]>
+                <![CDATA[124]]>
               </value>
             </param>
             <param index="2">
@@ -28,23 +28,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testScenario1()[pri:1, instance:lambda101.LambdaTests@35f26e72]" started-at="2024-07-10T19:32:09 EDT" name="testScenario1" finished-at="2024-07-10T19:32:14 EDT" duration-ms="5369" status="PASS">
+        <test-method signature="testScenario1()[pri:1, instance:lambda101.LambdaTests@1040be71]" started-at="2024-07-10T22:55:57 EDT" name="testScenario1" finished-at="2024-07-10T22:56:01 EDT" duration-ms="4272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScenario1 -->
-        <test-method signature="testScenario2()[pri:2, instance:lambda101.LambdaTests@35f26e72]" started-at="2024-07-10T19:32:14 EDT" name="testScenario2" finished-at="2024-07-10T19:32:17 EDT" duration-ms="2721" status="PASS">
+        <test-method signature="testScenario2()[pri:2, instance:lambda101.LambdaTests@1040be71]" started-at="2024-07-10T22:56:01 EDT" name="testScenario2" finished-at="2024-07-10T22:56:03 EDT" duration-ms="1426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScenario2 -->
-        <test-method signature="testScenario3()[pri:3, instance:lambda101.LambdaTests@35f26e72]" started-at="2024-07-10T19:32:17 EDT" name="testScenario3" finished-at="2024-07-10T19:32:22 EDT" duration-ms="5146" status="PASS">
+        <test-method signature="testScenario3()[pri:3, instance:lambda101.LambdaTests@1040be71]" started-at="2024-07-10T22:56:03 EDT" name="testScenario3" finished-at="2024-07-10T22:56:07 EDT" duration-ms="4838" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScenario3 -->
       </class> <!-- lambda101.LambdaTests -->
     </test> <!-- Running test on Firefox and Mac -->
-    <test started-at="2024-07-10T19:31:59 EDT" name="Running test on Firefox and Windows" finished-at="2024-07-10T19:32:40 EDT" duration-ms="41005">
+    <test started-at="2024-07-10T22:55:47 EDT" name="Running test on Firefox and Windows" finished-at="2024-07-10T22:56:24 EDT" duration-ms="36892">
       <class name="lambda101.LambdaTests">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lambda101.LambdaTests@3d2ee678]" started-at="2024-07-10T19:31:59 EDT" name="setUp" finished-at="2024-07-10T19:32:13 EDT" duration-ms="13750" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lambda101.LambdaTests@61c4eee0]" started-at="2024-07-10T22:55:47 EDT" name="setUp" finished-at="2024-07-10T22:56:02 EDT" duration-ms="14299" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[126.0]]>
+                <![CDATA[124]]>
               </value>
             </param>
             <param index="2">
@@ -65,23 +65,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testScenario1()[pri:1, instance:lambda101.LambdaTests@3d2ee678]" started-at="2024-07-10T19:32:13 EDT" name="testScenario1" finished-at="2024-07-10T19:32:25 EDT" duration-ms="12301" status="PASS">
+        <test-method signature="testScenario1()[pri:1, instance:lambda101.LambdaTests@61c4eee0]" started-at="2024-07-10T22:56:02 EDT" name="testScenario1" finished-at="2024-07-10T22:56:12 EDT" duration-ms="10026" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScenario1 -->
-        <test-method signature="testScenario2()[pri:2, instance:lambda101.LambdaTests@3d2ee678]" started-at="2024-07-10T19:32:25 EDT" name="testScenario2" finished-at="2024-07-10T19:32:31 EDT" duration-ms="5326" status="PASS">
+        <test-method signature="testScenario2()[pri:2, instance:lambda101.LambdaTests@61c4eee0]" started-at="2024-07-10T22:56:12 EDT" name="testScenario2" finished-at="2024-07-10T22:56:16 EDT" duration-ms="3932" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScenario2 -->
-        <test-method signature="testScenario3()[pri:3, instance:lambda101.LambdaTests@3d2ee678]" started-at="2024-07-10T19:32:31 EDT" name="testScenario3" finished-at="2024-07-10T19:32:40 EDT" duration-ms="9556" status="PASS">
+        <test-method signature="testScenario3()[pri:3, instance:lambda101.LambdaTests@61c4eee0]" started-at="2024-07-10T22:56:16 EDT" name="testScenario3" finished-at="2024-07-10T22:56:24 EDT" duration-ms="8568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScenario3 -->
       </class> <!-- lambda101.LambdaTests -->
     </test> <!-- Running test on Firefox and Windows -->
-    <test started-at="2024-07-10T19:31:59 EDT" name="Running test on Chrome and Windows" finished-at="2024-07-10T19:35:15 EDT" duration-ms="195880">
+    <test started-at="2024-07-10T22:55:47 EDT" name="Running test on Chrome and Windows" finished-at="2024-07-10T22:58:48 EDT" duration-ms="180945">
       <class name="lambda101.LambdaTests">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lambda101.LambdaTests@59b38691]" started-at="2024-07-10T19:31:59 EDT" name="setUp" finished-at="2024-07-10T19:34:50 EDT" duration-ms="170756" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lambda101.LambdaTests@4b29d1d2]" started-at="2024-07-10T22:55:47 EDT" name="setUp" finished-at="2024-07-10T22:58:48 EDT" duration-ms="180874" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -90,7 +90,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[126]]>
+                <![CDATA[123]]>
               </value>
             </param>
             <param index="2">
@@ -99,18 +99,246 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-5VJNL8D', ip: '192.168.1.49']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-5VJNL8D', ip: '192.168.1.49'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+at lambda101.LambdaTests.setUp(LambdaTests.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
+at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 24 more
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testScenario1()[pri:1, instance:lambda101.LambdaTests@59b38691]" started-at="2024-07-10T19:34:50 EDT" name="testScenario1" finished-at="2024-07-10T19:34:59 EDT" duration-ms="8844" status="PASS">
+        <test-method signature="testScenario1()[pri:1, instance:lambda101.LambdaTests@4b29d1d2]" started-at="2024-07-10T22:58:48 EDT" name="testScenario1" finished-at="2024-07-10T22:58:48 EDT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-5VJNL8D', ip: '192.168.1.49']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-5VJNL8D', ip: '192.168.1.49'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+at lambda101.LambdaTests.setUp(LambdaTests.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
+at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 24 more
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScenario1 -->
-        <test-method signature="testScenario2()[pri:2, instance:lambda101.LambdaTests@59b38691]" started-at="2024-07-10T19:34:59 EDT" name="testScenario2" finished-at="2024-07-10T19:35:02 EDT" duration-ms="2875" status="PASS">
+        <test-method signature="testScenario2()[pri:2, instance:lambda101.LambdaTests@4b29d1d2]" started-at="2024-07-10T22:58:48 EDT" name="testScenario2" finished-at="2024-07-10T22:58:48 EDT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-5VJNL8D', ip: '192.168.1.49']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-5VJNL8D', ip: '192.168.1.49'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+at lambda101.LambdaTests.setUp(LambdaTests.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
+at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 24 more
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScenario2 -->
-        <test-method signature="testScenario3()[pri:3, instance:lambda101.LambdaTests@59b38691]" started-at="2024-07-10T19:35:02 EDT" name="testScenario3" finished-at="2024-07-10T19:35:15 EDT" duration-ms="13343" status="PASS">
+        <test-method signature="testScenario3()[pri:3, instance:lambda101.LambdaTests@4b29d1d2]" started-at="2024-07-10T22:58:48 EDT" name="testScenario3" finished-at="2024-07-10T22:58:48 EDT" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-5VJNL8D', ip: '192.168.1.49']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-5VJNL8D', ip: '192.168.1.49'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+at lambda101.LambdaTests.setUp(LambdaTests.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
+at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+... 24 more
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScenario3 -->

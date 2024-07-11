@@ -4,26 +4,17 @@
 	
   <test name="Running test on Chrome and Windows">
 	<parameter name="browsername" value="Chrome"></parameter>
-    <parameter name="version" value="126"></parameter>
+    <parameter name="version" value="123"></parameter>
     <parameter name="platform" value="Windows 11"></parameter>
     <classes>
       <class name="lambda101.LambdaTests"/>
-    </classes>
-  </test> <!-- Test -->
-  
-    <test name="Running test on Firefox and Windows">
-	<parameter name="browsername" value="firefox"></parameter>
-    <parameter name="version" value="126.0"></parameter>
-    <parameter name="platform" value="Windows 11"></parameter>
-    <classes>
-       <class name="lambda101.LambdaTests"/>
     </classes>
   </test> <!-- Test -->
 
   
     <test name="Running test on Firefox and Mac">
 	<parameter name="browsername" value="firefox"></parameter>
-    <parameter name="version" value="126.0"></parameter>
+    <parameter name="version" value="124"></parameter>
     <parameter name="platform" value="macOS Sonoma"></parameter>
     <classes>
        <class name="lambda101.LambdaTests"/>
