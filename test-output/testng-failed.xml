@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Running test on Chrome and Windows(failed)">
+    <parameter name="browsername" value="Chrome"/>
+    <parameter name="version" value="126"/>
+    <parameter name="platform" value="Windows 11"/>
+    <classes>
+      <class name="lambda101.LambdaTests">
+        <methods>
+          <include name="testScenario3"/>
+          <include name="testScenario1"/>
+          <include name="testScenario2"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- lambda101.LambdaTests -->
+    </classes>
+  </test> <!-- Running test on Chrome and Windows(failed) -->
+  <test thread-count="5" parallel="tests" name="Running test on Firefox and Mac(failed)">
+    <parameter name="browsername" value="firefox"/>
+    <parameter name="version" value="126.0"/>
+    <parameter name="platform" value="macOS Sonoma"/>
+    <classes>
+      <class name="lambda101.LambdaTests">
+        <methods>
+          <include name="testScenario3"/>
+          <include name="testScenario1"/>
+          <include name="testScenario2"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- lambda101.LambdaTests -->
+    </classes>
+  </test> <!-- Running test on Firefox and Mac(failed) -->
+  <test thread-count="5" parallel="tests" name="Running test on Firefox and Windows(failed)">
+    <parameter name="browsername" value="firefox"/>
+    <parameter name="version" value="126.0"/>
+    <parameter name="platform" value="Windows 11"/>
+    <classes>
+      <class name="lambda101.LambdaTests">
+        <methods>
+          <include name="testScenario3"/>
+          <include name="testScenario1"/>
+          <include name="testScenario2"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- lambda101.LambdaTests -->
+    </classes>
+  </test> <!-- Running test on Firefox and Windows(failed) -->
+</suite> <!-- Failed suite [Suite] -->
