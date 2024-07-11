@@ -1,0 +1,1 @@
+{"uuid":"145cb705-401b-4e54-a25d-534f0cb2bb65","name":"lambda101.TestScenario2","children":["f3696316-34a8-4b82-8e7b-ce23512ab5a8"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1720652058425,"stop":1720652083531}],"afters":[],"start":1720652058360,"stop":1720652276853}
